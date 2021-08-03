@@ -17,6 +17,7 @@ Based on:
     -e WINEARCH=win32 `
     -v "e:/Docker/iTunes/Program Files:/home/wineuser/.wine/drive_c/Program Files:rw" `
     -v "e:/Docker/iTunes/ProgramData:/home/wineuser/.wine/drive_c/ProgramData:rw" `
+    -v e:/Docker/iTunes/Desktop:/home/wineuser/Desktop:rw `
     -v e:/Docker/iTunes/Music:/home/wineuser/Music:rw `
     -v "e:/Docker/iTunes/appdata:/home/wineuser/.wine/drive_c/users/wineuser/Application Data:rw" `
     scottyhardy/docker-wine:latest
